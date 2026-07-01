@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { getAPIKey } from "../../src/api/auth.ts";
+import { getAPIKey } from "../../src/api/auth.js";
 import { IncomingHttpHeaders } from "http";
 
 describe("getAPIKey", () => {
